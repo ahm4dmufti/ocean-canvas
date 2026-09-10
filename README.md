@@ -6,7 +6,7 @@ Built on Laravel, Inertia, and React, styled with Tailwind and shadcn, animated 
 
 ## What it does
 
-Every day, the app fetches live marine and wind data for a fixed set of coordinates — wave height, wave period, wave direction, wind speed, wind direction, sea surface temperature — and turns it into a painting. A seeded PRNG keyed to the date drives a flow-field of brush strokes over a simplex-noise field, so the result is deterministic (reload it ten times, get the same picture) but never repeats from one day to the next.
+Every day, the app fetches live marine and wind data for a fixed set of coordinates — wave height, wave period, wave direction, wind speed, wind direction, sea surface temperature — and turns it into a painting. A seeded PRNG keyed to the h date drives a flow-field of brush strokes over a simplex-noise field, so the result is deterministic (reload it ten times, get the same picture) but never repeats from one day to the next.
 
 - **The art brain** — conditions map directly onto the canvas, not just a color swatch:
 
