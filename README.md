@@ -10,13 +10,13 @@ Every day, the app fetches live marine and wind data for a fixed set of coordina
 
 - **The art brain** — conditions map directly onto the canvas, not just a color swatch:
 
-  | Signal | Drives |
-  | --- | --- |
-  | Wave height | Palette boldness, stroke width, foam density |
-  | Wave period | Layer count and spacing — long-period swell reads calmer and more spread out |
-  | Wind speed | Turbulence and jitter along each stroke's path |
-  | Wind direction | The dominant angle every stroke flows along |
-  | Sea temperature | Warm/cool hue bias of the whole palette |
+    | Signal          | Drives                                                                       |
+    | --------------- | ---------------------------------------------------------------------------- |
+    | Wave height     | Palette boldness, stroke width, foam density                                 |
+    | Wave period     | Layer count and spacing — long-period swell reads calmer and more spread out |
+    | Wind speed      | Turbulence and jitter along each stroke's path                               |
+    | Wind direction  | The dominant angle every stroke flows along                                  |
+    | Sea temperature | Warm/cool hue bias of the whole palette                                      |
 
 - **Download as wallpaper** — renders a separate high-resolution pass (2560x1440) on demand, independent of the on-screen preview.
 - **Surf call** — a plain-language read of the day's conditions (Flat, Marginal, Fun, Firing, Blown out), not just raw numbers.
